@@ -1,0 +1,5 @@
+body{background-color:  #00264d;}
+#escolhafruta{background-color: #80bfff; width:1000px; margin:0 auto; font-family: verdana; font-size:150%; text-align:center; border:5px solid white; border-radius: 10px; padding-bottom: 20px;}
+#tudo{padding: 20px;}
+select{width: 20%;}
+span.frasecentralizada{font-weight:bold; color:#00264d;}

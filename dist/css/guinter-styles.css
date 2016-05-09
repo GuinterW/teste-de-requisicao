@@ -1,6 +1,6 @@
-body{background-color:  #00264d;}
+body{background-color: #00264d; text-align: center;}
 #escolhafruta{background-color: #80bfff; width:1000px; margin:0 auto; font-family: verdana; font-size:150%; text-align:center; border:5px solid white; border-radius: 10px; padding-bottom: 20px;}
 #tudo{padding: 20px; color: #00264d;}
-#imagem{text-align:center; width:100%;}
+#imagem{margin-top: 20px; width:25%; border-radius: 50px;}
 select{width: 20%;}
 span.frasecentralizada{font-weight:bold; color:#00264d;}

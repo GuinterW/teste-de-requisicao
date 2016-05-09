@@ -16,9 +16,11 @@ $(document).ready(function(){
 //função que faz aparecer o item solicitado.
 function escritas(database){
 		var respostas='';
-		respostas+= 'Produto: ' + database.nome + '<br>';
-		respostas+= 'Valor: R$ ' + database.valor + '<br>';
-		respostas+= 'Status: ' + database.status + '<br>';
-		respostas+= 'Estoque: ' + database.estoque + '<br>';
+		respostas+= '<b>Produto: </b>' + database.nome + '<br>';
+		respostas+= '<b>Valor:</b> R$ ' + database.valor + '<br>';
+		respostas+= '<b>Status: </b>' + database.status + '<br>';
+		if(database.base==1)
+		//acabar if
+		respostas+= '<b>Estoque: </b>' + database.estoque + ' unidades<br>';
 		$('#tudo').html(respostas);
 }

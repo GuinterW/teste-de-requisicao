@@ -19,8 +19,6 @@ function escritas(database){
 		respostas+= '<b>Produto: </b>' + database.nome + '<br>';
 		respostas+= '<b>Valor:</b> R$ ' + database.valor + '<br>';
 		respostas+= '<b>Status: </b>' + database.status + '<br>';
-		if(database.base==1)
-		//acabar if
-		respostas+= '<b>Estoque: </b>' + database.estoque + ' unidades<br>';
+		respostas+= '<b>Estoque: </b>' + database.estoque;
 		$('#tudo').html(respostas);
 }
